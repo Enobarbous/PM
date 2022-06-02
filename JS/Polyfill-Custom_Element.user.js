@@ -1,10 +1,9 @@
 // ==UserScript==
-// @name        Custom Element Polyfill
+// @name        [Polyfill] Custom Element
 // @namespace   polyfill
 // @description A polyfill for the custom elements v1 spec
 // @author      webcomponents.org
 // @include     https://www.ibm.com*
-// @include     https://www.deepl.com*
 // @version     1.2.4
 // @grant       none
 // @run-at      document-start
@@ -14,14 +13,8 @@
  custom-elements-polyfill v1.2.4
  https://github.com/webcomponents/polyfills
  https://unpkg.com/@webcomponents/custom-elements@1.2.4/custom-elements.min.js
- 
- Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
- This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
- The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
- The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
- Code distributed by Google as part of the polymer project is also
- subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 */
+
 (function () {
 (function(){
 'use strict';var aa=new Set("annotation-xml color-profile font-face font-face-src font-face-uri font-face-format font-face-name missing-glyph".split(" "));function g(a){var b=aa.has(a);a=/^[a-z][.0-9_a-z]*-[\-.0-9_a-z]*$/.test(a);return!b&&a}function l(a){var b=a.isConnected;if(void 0!==b)return b;for(;a&&!(a.__CE_isImportDocument||a instanceof Document);)a=a.parentNode||(window.ShadowRoot&&a instanceof ShadowRoot?a.host:void 0);return!(!a||!(a.__CE_isImportDocument||a instanceof Document))}
