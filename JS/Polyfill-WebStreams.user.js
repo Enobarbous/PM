@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        [Polyfill] Web Streams
+// @name        [Polyfill] WebStreams
 // @namespace   polyfill
 // @description Web Streams, based on the WHATWG spec reference implementation
 // @author      MattiasBuelens
