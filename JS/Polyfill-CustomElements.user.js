@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        [Polyfill] Custom Element
+// @name        [Polyfill] CustomElements
 // @namespace   polyfill
 // @description A polyfill for the custom elements v1 spec
 // @author      webcomponents.org
