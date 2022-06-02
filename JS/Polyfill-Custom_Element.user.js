@@ -4,6 +4,9 @@
 // @description A polyfill for the custom elements v1 spec
 // @author      webcomponents.org
 // @include     https://www.ibm.com*
+// @include     https://www.rottentomatoes.com*
+// @include     https://*.pixiv.net*
+// @include     https://*.fanbox.cc*
 // @version     1.2.4
 // @grant       none
 // @run-at      document-start
